@@ -6,7 +6,7 @@ Python 2.7
 
 Tensorflow 1.0.0 
 
-Recommend OS: Linux
+Recommended OS: Linux
 
 
 ## How to run:
