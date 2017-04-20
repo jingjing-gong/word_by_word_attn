@@ -1,1 +1,1 @@
-# 请删除改目录示例embedding.50文件
+# Please change glove embedding file to embedding.N, where N denotes that embedding.N stores N dimension of word embedding (ie. embedding.50 stores 50dim word embedding)
