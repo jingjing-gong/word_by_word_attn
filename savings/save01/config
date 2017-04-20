@@ -1,0 +1,32 @@
+[General]
+train_data = ./all_data/snli_1.0_train.txt
+val_data = ./all_data/snli_1.0_dev.txt
+test_data = ./all_data/snli_1.0_test.txt
+vocab_path = ./all_data/vocab.all
+id2tag_path = ./all_data/id2tag.txt
+embed_path = ./all_data/embed/embedding.
+cnn_after_embed = True
+neural_model = dummy
+pre_trained = False
+batch_size = 512
+embed_size = 200
+max_epochs = 50
+early_stopping = 5
+dropout = 0.7
+lr = 0.001
+decay_steps = 500
+decay_rate = 0.9
+class_num = 0
+reg = 1e-4
+num_steps = 40
+fnn_layers = 2
+
+[lstm]
+hidden_size = 300
+rnn_numlayers = 1
+
+[cnn]
+num_filters = 128
+filter_sizes = [3, 4, 5]
+cnn_numlayers = 1
+
